@@ -5,3 +5,7 @@
 .logo {
     font-size: 2rem;
 }
+
+li {
+    list-style-type: none;
+}
