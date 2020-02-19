@@ -8,6 +8,8 @@
 
     <!-- our bootstrap css -->
     <link rel="stylesheet" type="text/css" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <!-- our custom css -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <!-- our js for the api call -->
     <script src="script.js"></script>
     <!-- third parties bootstrap js may need -->
@@ -22,7 +24,9 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Art Access <i class="fas fa-paint-brush"></i></a>
+        <a class="navbar-brand" href="#">
+            Art Access <i class="fas fa-paint-brush"></i>
+        </a>
         <!-- also a good icon option:
         <i class="fas fa-palette"></i> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +49,56 @@
         <div class="col-md-6 mx-auto col 12 ">
             <div class="form-inline">
 
-                <button class="btn btn-info btn-lg mr-2"><i class="fas fa-filter"></i></button>
+                <div class="dropdown">
+                    <button class="btn btn-info btn-lg mr-2 " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                            class="fas fa-filter"></i></button>
+                    <div class="dropdown-menu px-4 filter-menu" aria-labelledby="dropdownMenuButton">
+                        <h2>Year</h2>
+                        <ul>
+                            <li class="mb-1">Start: <input type="text" class="col-4 form-control" placeholder="1800" />
+                            </li>
+                            <li>End: <input type="text" class="col-4 form-control" placeholder="1921" /></li>
+                        </ul>
+                        <h2>Movement</h2>
+                        <div class="row">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" /> something
+                                </li>
+                                <li>
+                                    <input type="checkbox" /> something
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" /> something
+                                </li>
+                                <li>
+                                    <input type="checkbox" /> something
+                                </li>
+                            </ul>
+                        </div>
+
+                        <h2>Country of Origin</h2>
+
+
+                        <div class="text-right">
+                            <button class="btn btn-secondary btn-lg mr-2 " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apply</button>
+                        </div>
+
+
+                        <!-- the filter menu does not like choosing from a dropdown menu -->
+                        <!-- <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select> -->
+
+
+                    </div>
+                </div>
 
                 <input type="text" class="form-control col-8" placeholder="Search for..." />
 
