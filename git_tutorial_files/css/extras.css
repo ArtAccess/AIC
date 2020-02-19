@@ -6,9 +6,11 @@ body, html {
 }
 
 /* Create a Parallax Effect */
+/**/
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
+  /* I just made this comment for Git purposes */
   background-repeat: no-repeat;
   background-size: cover;
 }
