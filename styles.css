@@ -1,5 +1,5 @@
 .filter-menu {
-    width: 460px;
+    width: 500px;
 }
 
 .logo {
@@ -8,4 +8,10 @@
 
 li {
     list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    .filter-menu {
+        width: 460px;
+    }
 }
