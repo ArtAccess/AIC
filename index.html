@@ -44,106 +44,99 @@
             </ul>
         </div>
     </nav>
-    <div class="container mx-auto mt-5">
 
-        <div class="col-md-8 col-lg-6 mx-auto col 12 ">
+    <!-- div that contains sidebar and searchbar and button -->
 
-            <div class="form-inline">
+    <div class="container mt-5 row ">
 
-                <div class="dropdown">
-                    <button class="btn btn-info btn-lg mr-2 " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                            class="fas fa-filter"></i></button>
-                    <div class="dropdown-menu px-4 filter-menu" aria-labelledby="dropdownMenuButton">
-                        <h2>Year</h2>
-                        <ul>
-                            <li class="mb-1">Start: <input type="text" class="col-4 form-control" placeholder="1800" />
-                            </li>
-                            <li>End: <input type="text" class="col-4 form-control ml-2" placeholder="1921" /></li>
-                        </ul>
-                        <h2>Movement</h2>
-                        <div class="row">
-                            <ul>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Abstract Expressionism
-                                </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Art Noveau
-                                </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Avant-garde
-                                </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Baroque
-                                </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Cubism
-                                </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Dada / Dadaism
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Expressionism
-                                </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Impressionism
-                                </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Pop Art
-                                </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Post-Impressionism
-                                </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Rococo
-                                </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Surrealism
-                                </li>
-                            </ul>
-                        </div>
+        <div class="col-3">
 
-                        <h2>Country of Origin</h2>
-
-                        <input class="col-6 form-control" type="text" />
-                        <!-- the filter menu does not like choosing from a dropdown menu -->
-                        <!-- <select class="form-control" id="exampleFormControlSelect1">
-                              <option>1</option>
-                              <option>2</option>
-                              <option>3</option>
-                              <option>4</option>
-                              <option>5</option>
-                            </select> -->
-
-
-                        <div class="text-right">
-                            <button class="btn btn-secondary mr-2 " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apply</button>
-                        </div>
-
-
-                    </div>
+            <div class=" form">
+                <h2>Year</h2>
+                <ul>
+                    <li class="mb-1">Start: <input type="text" class="col-12 form-control" placeholder="1800" />
+                    </li>
+                    <li>End: <input type="text" class="col-12 form-control ml-2" placeholder="1921" /></li>
+                </ul>
+                <h2>Movement</h2>
+                <div class="row">
+                    <ul>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Abstract Expressionism
+                        </li>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Art Noveau
+                        </li>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Avant-garde
+                        </li>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Baroque
+                        </li>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Cubism
+                        </li>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Dada / Dadaism
+                        </li>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Expressionism
+                        </li>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Impressionism
+                        </li>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Pop Art
+                        </li>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Post-Impressionism
+                        </li>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Rococo
+                        </li>
+                        <li>
+                            <input class="mr-1" type="checkbox" /> Surrealism
+                        </li>
+                    </ul>
                 </div>
 
-                <input type="text" class="form-control col-md-8 colsm-6 col-8" placeholder="Search for..." />
+                <h2>Country of Origin</h2>
 
-                <button onClick="getArt()" class="btn btn-primary btn-lg ml-2"><i class="fas fa-search"></i></button>
+                <input class="col-12 form-control" type="text" />
+
+                <div class="text-right mt-3">
+                    <button class="btn btn-secondary mr-2 ">Apply</button>
+                </div>
             </div>
-
         </div>
 
-        <div class="mx-auto col-md-6 col-10 mt-3 mb-5">
-            <div class="mx-auto">
-                <img id="imageLink" class="w-100 mx-auto"></img>
-            </div>
+        <!-- small column to give space between the sidebar and the search -->
+        <div class="col-1">
+        </div>
 
-            <a id="tombstone">
-                <a id="artwork-url" target="blank">
-                    <div id="title"></div>
+        <!-- search bar and button -->
+
+        <div class="col-8 mx-auto form-inline">
+            <input type="text" class="form-control col-md-8 col-8" placeholder="Search for..." />
+
+            <button onClick="getArt()" class="btn btn-primary btn-lg ml-2"><i class="fas fa-search"></i></button>
+
+            <div class="mx-auto col-md-6 col-10 mt-3 mb-5">
+                <div class="mx-auto">
+                    <img id="imageLink" class="w-100 mx-auto"></img>
+                </div>
+
+                <a id="tombstone">
+                    <a id="artwork-url" target="blank">
+                        <div id="title"></div>
+                    </a>
+                    <div id="artist"></div>
                 </a>
-                <div id="artist"></div>
-            </a>
+            </div>
         </div>
+    </div>
+
+
 
     </div>
 
