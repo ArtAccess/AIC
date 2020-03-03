@@ -9,3 +9,9 @@ li {
 .form {
     background-color: #f8f9fa;
 }
+
+@media (max-width: 768px) {
+    .filter-menu {
+        width: 460px;
+    }
+}
