@@ -10,7 +10,7 @@ li {
     background-color: #f8f9fa;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .filter-menu {
         width: 460px;
     }
