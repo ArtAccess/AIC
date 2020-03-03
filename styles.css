@@ -10,8 +10,16 @@ li {
     background-color: #f8f9fa;
 }
 
+/* tablet */
 @media (max-width: 992px) {
     .filter-menu {
         width: 460px;
+    }
+}
+
+/* phone, fits iPhone as old as 6 */
+@media (max-width: 769px) {
+    .filter-menu {
+        width: 345px;
     }
 }
