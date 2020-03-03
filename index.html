@@ -115,7 +115,7 @@
 
 
                 <h4>Medium</h4>
-                
+
                 <ul class="pl-0 mt-1">
                     <li>
                         <input class="mr-1 " type="checkbox" /> Oil paint
@@ -165,11 +165,9 @@
                             class="fas fa-filter"></i></button>
                     <div class="dropdown-menu px-4 filter-menu" aria-labelledby="dropdownMenuButton">
                         <h2>Year</h2>
-                        <ul>
-                            <li class="mb-1">Start: <input type="text" class="col-4 form-control" placeholder="1800" />
-                            </li>
-                            <li>End: <input type="text" class="col-4 form-control ml-2" placeholder="1921" /></li>
-                        </ul>
+                        <fieldset class="form-group">
+                            <input type="range" class="custom-range" id="years">
+                        </fieldset>
                         <h2>Movement</h2>
                         <div class="row">
                             <ul>
@@ -227,7 +225,7 @@
                             </select> -->
 
                         <h2>Medium</h2>
-                
+
                         <ul class="pl-0 mt-1">
                             <li>
                                 <input class="mr-1 " type="checkbox" /> Oil paint
@@ -248,7 +246,7 @@
                                 <input class="mr-1" type="checkbox" /> Charcoal
                             </li>
                         </ul>
-                        
+
                         <h4>Visibility at AIC</h4>
                         <div class="custom-control custom-switch mb-3">
                             <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="">
