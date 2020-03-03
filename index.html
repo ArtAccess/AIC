@@ -135,10 +135,12 @@
 
         <!-- search bar and button -->
 
-        <div class="col-8 mx-auto mt-5">
-            <div class="form-inline">
+        <div class="col-12 col-md-8 col-lg-6 mx-auto mt-3">
+
+            <div class="form-inline mx-auto">
+
                 <div class="dropdown">
-                    <button class="btn btn-info btn-lg mr-2 d-sm-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                    <button class="btn btn-info btn-lg mr-2 d-lg-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
                             class="fas fa-filter"></i></button>
                     <div class="dropdown-menu px-4 filter-menu" aria-labelledby="dropdownMenuButton">
                         <h2>Year</h2>
@@ -192,32 +194,45 @@
                         </div>
 
                         <h2>Country of Origin</h2>
+
                         <input class="col-6 form-control" type="text" />
+                        <!-- the filter menu does not like choosing from a dropdown menu -->
+                        <!-- <select class="form-control" id="exampleFormControlSelect1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select> -->
+
+
+                        <div class="text-right">
+                            <button class="btn btn-secondary mr-2 " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apply</button>
+                        </div>
+
+
                     </div>
-
-
-
-
-                    <input type="text" class="form-control col-md-8 col-8" placeholder="Search for..." />
-
-                    <button onClick="getArt()" class="btn btn-primary btn-lg ml-2"><i
-                            class="fas fa-search"></i></button>
                 </div>
 
-                <div class="mx-auto col-md-6 col-10 mt-3 mb-5">
-                    <div class="mx-auto">
-                        <img id="imageLink" class="w-100 mx-auto"></img>
-                    </div>
+                <input type="text" class="form-control col-md-8 colsm-6 col-8" placeholder="Search for..." />
 
-                    <a id="tombstone">
-                        <a id="artwork-url" target="blank">
-                            <div id="title"></div>
-                        </a>
-                        <div id="artist"></div>
+                <button onClick="getArt()" class="btn btn-primary btn-lg ml-2"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="mx-auto col-md-6 col-10 mt-3 mb-5">
+                <div class="mx-auto">
+                    <img id="imageLink" class="w-100 mx-auto"></img>
+                </div>
+
+                <a id="tombstone">
+                    <a id="artwork-url" target="blank">
+                        <div id="title"></div>
                     </a>
-                </div>
+                    <div id="artist"></div>
+                </a>
             </div>
         </div>
+    </div>
 
 
 
