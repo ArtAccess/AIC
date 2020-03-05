@@ -10,6 +10,8 @@ li {
     background-color: #f8f9fa;
 }
 
+
+
 /* tablet */
 @media (max-width: 992px) {
     .filter-menu {
@@ -21,5 +23,8 @@ li {
 @media (max-width: 769px) {
     .filter-menu {
         width: 345px;
+    }
+    .explore{
+      display: none;
     }
 }
