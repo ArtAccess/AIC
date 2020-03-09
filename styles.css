@@ -10,6 +10,13 @@ li {
     background-color: #f8f9fa;
 }
 
+.about {
+    text-align: center;
+}
+
+.about-body {
+    text-align: justify;
+}
 
 
 /* tablet */
