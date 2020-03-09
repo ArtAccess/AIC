@@ -183,7 +183,7 @@ Nice-to-have Features:
 
 ## Paper Prototyping (P4)
 
-[![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](https://www.youtube.com/embed/oUROgnWrGdw)
+[![alt text](readme-img/paper-prototype.png "Logo Title Text 1")](https://www.youtube.com/embed/oUROgnWrGdw)
 
 
 ### Observations
