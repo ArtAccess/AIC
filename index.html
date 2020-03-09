@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Art Institute of Chicago Digital Exploration</title>
 
     <!-- our bootstrap css -->
@@ -45,19 +45,154 @@
     <div class="container mx-auto mt-5">
 
 <body>
-        <div class="col-md-6 mx-auto col 12 ">
-            <div class="form-inline">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand logo mb-0" href="index.html">
+            Art Access <i class="fas fa-paint-brush"></i>
+        </a>
+        <!-- also a good icon option:
+        <i class="fas fa-palette"></i> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto ml-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- div that contains sidebar and searchbar and button -->
+
+    <div class="container mt-2 row mx-lg-0 mx-auto">
+
+        <div class="col-xl-3 col-4 d-lg-block d-none">
+
+
+            <!-- desktop filter -->
+            <div class="border border-light rounded form p-3">
+                <h2><i class="fas fa-filter"></i> Filters</h2>
+                <h4 class="mt-3">Year</h4>
+                <!-- made this into a slider but need to add values -->
+                <fieldset class="form-group">
+                    <input type="range" class="custom-range" id="years">
+                </fieldset>
+                <div>
+                <h4 class="pb-0 mb-0">Movement</h4>
+                <a href="movements.html"><i class="fas fa-question-circle"></i></a>
+                </div>
+
+                <ul class="pl-0 mt-1">
+                    <li>
+                        <input class="mr-1 " type="checkbox" /> Abstract Expressionism
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Art Noveau
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Avant-garde
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Baroque
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Cubism
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Dada / Dadaism
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Expressionism
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Impressionism
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Pop Art
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Post-Impressionism
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Rococo
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Surrealism
+                    </li>
+                </ul>
+
+
+                <h4>Country of Origin</h4>
+                <div class="form-group">
+                    <select class="form-control" id="country">
+                        <option>Canada</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+
+
+                <h4>Medium</h4>
+
+                <ul class="pl-0 mt-1">
+                    <li>
+                        <input class="mr-1 " type="checkbox" /> Oil paint
+                    </li>
+                    <li>
+                        <input class="mr-1 " type="checkbox" /> Acrylic paint
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Watercolor
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Guache
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Graphite
+                    </li>
+                    <li>
+                        <input class="mr-1" type="checkbox" /> Charcoal
+                    </li>
+                </ul>
+
+                <h4>Visibility at AIC</h4>
+                <div class="custom-control custom-switch mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="">
+                    <label class="custom-control-label" for="customSwitch1">Currently on display at AIC</label>
+                </div>
+
+
+                <div class="text-right mt-3">
+                    <button class="btn btn-secondary mr-2 ">Apply</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- small column to give space between the sidebar and the search -->
+        <div class="col-1 d-lg-block d-none">
+        </div>
+
+        <!-- search bar and button + mobile filter -->
+
+        <div class="col-12 col-md-8 col-lg-6 mx-auto mt-3">
+
+            <div class="form-inline mx-auto">
 
                 <div class="dropdown">
-                    <button class="btn btn-info btn-lg mr-2 " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                    <button class="btn btn-info btn-lg mr-2 d-lg-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
                             class="fas fa-filter"></i></button>
                     <div class="dropdown-menu px-4 filter-menu" aria-labelledby="dropdownMenuButton">
                         <h2>Year</h2>
-                        <ul>
-                            <li class="mb-1">Start: <input type="text" class="col-4 form-control" placeholder="1800" />
-                            </li>
-                            <li>End: <input type="text" class="col-4 form-control ml-2" placeholder="1921" /></li>
-                        </ul>
+                        <fieldset class="form-group">
+                            <input type="range" class="custom-range" id="years">
+                        </fieldset>
                         <h2>Movement</h2>
                         <div class="row">
                             <ul>
@@ -114,36 +249,70 @@
                               <option>5</option>
                             </select> -->
 
+                        <h2>Medium</h2>
+
+                        <ul class="pl-0 mt-1">
+                            <li>
+                                <input class="mr-1 " type="checkbox" /> Oil paint
+                            </li>
+                            <li>
+                                <input class="mr-1 " type="checkbox" /> Acrylic paint
+                            </li>
+                            <li>
+                                <input class="mr-1" type="checkbox" /> Watercolor
+                            </li>
+                            <li>
+                                <input class="mr-1" type="checkbox" /> Guache
+                            </li>
+                            <li>
+                                <input class="mr-1" type="checkbox" /> Graphite
+                            </li>
+                            <li>
+                                <input class="mr-1" type="checkbox" /> Charcoal
+                            </li>
+                        </ul>
+
+                        <!-- <h4>Visibility at AIC</h4>
+                        <div class="custom-control custom-switch mb-3">
+                            <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="">
+                            <label class="custom-control-label" for="customSwitch1">Currently on display at AIC</label>
+                        </div> -->
 
                         <div class="text-right">
-                            <button class="btn btn-secondary mr-2 " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apply</button>
+                            <button class="btn btn-secondary mr-2 " type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apply</button>
                         </div>
 
 
                     </div>
                 </div>
 
-                <input type="text" class="form-control col-8" placeholder="Search for..." />
+                <button onClick="getArt()" class="btn btn-primary explore" style="margin:5px;"> Explore </button>
+
+
+                <input type="text" class="form-control col-7" placeholder="Search for..." />
 
                 <button onClick="getArt()" class="btn btn-primary btn-lg ml-2"><i class="fas fa-search"></i></button>
             </div>
 
-        </div>
+            <div class="mx-auto col-md-6 col-10 mt-3 mb-5">
+                <div class="mx-auto">
+                    <img id="imageLink" class="w-100 mx-auto"></img>
+                </div>
 
-        <div class="mx-auto col-md-6 mt-3 mb-5">
-            <div>
-                <img id="imageLink"></img>
+                <a id="tombstone">
+                    <a id="artwork-url" target="blank">
+                        <div id="title"></div>
+                    </a>
+                    <div id="artist"></div>
+                </a>
+
             </div>
 
-            <a id="tombstone">
-                <a id="artwork-url" target="blank">
-                    <div id="title"></div>
-                </a>
-                <div id="artist"></div>
-            </a>
-        </div>
 
+
+        </div>
     </div>
+
 
 
 
