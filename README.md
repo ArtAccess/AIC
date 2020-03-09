@@ -183,7 +183,8 @@ Nice-to-have Features:
 
 ## Paper Prototyping (P4)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oUROgnWrGdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")](https://www.youtube.com/embed/oUROgnWrGdw)
+
 
 ### Observations
 Our first user explored with the arrows, searched with the search bar, and used filters when appropriate. Our second user used the search bar only, was confused by the arrows on the landing page and didn’t understand what the filter icon meant. The third user used the filter for both exploration and search, even when a filter wasn’t relevant in completing the task. The users expressed interest in a “save image” button and an option to make the image larger (they all tried to click the image). Overall, the users were able to complete the tasks, though in different ways.
