@@ -228,7 +228,7 @@ Find paintings by an artist you’re interested in. (ex: Vincent Van Gogh)
 #### Components 
 Responsive UI -- We decided to implement the Responsive UI component, which means our web application had dynamic elements that flex to comfortably fit mobile, tablet, and desktop-sized screens. 
 <!-- ![responsive component](readme-img/responsive.png "form responsive" ) -->
-<img src="readme-img/responsive.png" data-canonical-src="readme-img/responsive.png" width="200" height="400" />
+<img src="readme-img/responsive.png" data-canonical-src="readme-img/responsive.png" width="200" />
 #### How this component supports the task:
 
 
