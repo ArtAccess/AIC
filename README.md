@@ -227,7 +227,7 @@ TM Branding: We used the branding protocols of Bootstrap toolkit with changes to
 Find paintings by an artist you’re interested in. (ex: Vincent Van Gogh) 
 #### Components 
 Responsive UI -- We decided to implement the Responsive UI component, which means our web application had dynamic elements that flex to comfortably fit mobile, tablet, and desktop-sized screens. 
-![responsive component](readme-img/responsive.png | width=100)
+![responsive component](readme-img/responsive.png "form responsive" )
 #### How this component supports the task:
 
 
