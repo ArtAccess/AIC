@@ -209,6 +209,7 @@ Find a painting of flowers in a style of art that interests you. (ex: Impression
 Alternatively, find a painting of still life objects from a particular time period. 
 #### Components 
 Interactive Data Filter and Form: For the current round, as suggested to take the most complex component first, we decided to implement the “Filter” function of our project. It is one of the most important components since it is connected to almost every other feature of our prototype.
+![form component](readme-img/form.png "form component")
 #### How this component supports the task:
 
 ### Prototype 2 (P6)
@@ -217,6 +218,8 @@ Find a painting of flowers in a style of art that interests you. (ex: Impression
 
 #### Components 
 TM Branding: We used the branding protocols of Bootstrap toolkit with changes to different aspects including font, color, etc., while keeping in mind the basic design principles. 
+![branding colors component](readme-img/colors.png "branding colors component")
+![branding component](readme-img/fonts.png "branding component")
 #### How this component supports the task:
 
 ### Prototype 3 (P7)
@@ -224,6 +227,7 @@ TM Branding: We used the branding protocols of Bootstrap toolkit with changes to
 Find paintings by an artist you’re interested in. (ex: Vincent Van Gogh) 
 #### Components 
 Responsive UI -- We decided to implement the Responsive UI component, which means our web application had dynamic elements that flex to comfortably fit mobile, tablet, and desktop-sized screens. 
+![responsive component](readme-img/responsive.png "form responsive")
 #### How this component supports the task:
 
 
