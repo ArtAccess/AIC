@@ -183,7 +183,7 @@ Nice-to-have Features:
 
 ## Paper Prototyping (P4)
 
-[![alt text](readme-img/paper-prototype.png "Logo Title Text 1")](https://www.youtube.com/embed/oUROgnWrGdw)
+[![paper prototype](readme-img/paper-prototype.png "paper prototype")](https://www.youtube.com/embed/oUROgnWrGdw)
 
 
 ### Observations
