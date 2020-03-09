@@ -183,6 +183,10 @@ Nice-to-have Features:
 
 ## Paper Prototyping (P4)
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=oUROgnWrGdw&t=3s
+" target="_blank"><img src="http://img.youtube.com/vi/oUROgnWrGdw&t=3s" 
+alt="paper prototype" width="240" height="180" border="10" /></a>
+
 ### Observations
 Our first user explored with the arrows, searched with the search bar, and used filters when appropriate. Our second user used the search bar only, was confused by the arrows on the landing page and didn’t understand what the filter icon meant. The third user used the filter for both exploration and search, even when a filter wasn’t relevant in completing the task. The users expressed interest in a “save image” button and an option to make the image larger (they all tried to click the image). Overall, the users were able to complete the tasks, though in different ways.
 
