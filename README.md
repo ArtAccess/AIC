@@ -181,4 +181,50 @@ Nice-to-have Features:
     <li>John mentioned having a need to explore different cultures around the world and not just Chicago, so a feature that allows us to integrate information from other cultural institutions would be ideal.</li>
 </ul>
 
+## Paper Prototyping (P4)
+
+### Observations
+Our first user explored with the arrows, searched with the search bar, and used filters when appropriate. Our second user used the search bar only, was confused by the arrows on the landing page and didn’t understand what the filter icon meant. The third user used the filter for both exploration and search, even when a filter wasn’t relevant in completing the task. The users expressed interest in a “save image” button and an option to make the image larger (they all tried to click the image). Overall, the users were able to complete the tasks, though in different ways.
+
+### Resolutions
+For our next steps, we need to:
+<ol>
+    <li>Research arrow button designs that would communicate their utility more directly to the user. </li>
+    <li>Find examples of filter buttons or labels that are more explicit. 
+Like having filters permanently visible as a sidebar, include better instructions or label the buttons
+</li>
+    <li>Research the API for more relevant filters</li>
+    <li>Explore the API to see if we can get high resolution images, add a “save image” for downloading the image.</li>
+    <li>Labeling the “Related Images” on the side of the image may be helpful for users who aren’t sure what the purpose of those images are </li>
+</ol>
+
+## High-Fidelity Prototyping (P5, P6, & P7)
+
+### Prototype 1 (P5)
+#### Task
+Find a painting of flowers in a style of art that interests you. (ex: Impressionism) 
+Alternatively, find a painting of still life objects from a particular time period. 
+#### Components 
+Interactive Data Filter and Form: For the current round, as suggested to take the most complex component first, we decided to implement the “Filter” function of our project. It is one of the most important components since it is connected to almost every other feature of our prototype.
+#### How this component supports the task:
+
+### Prototype 2 (P6)
+#### Task
+Find a painting of flowers in a style of art that interests you. (ex: Impressionism) 
+
+#### Components 
+TM Branding: We used the branding protocols of Bootstrap toolkit with changes to different aspects including font, color, etc., while keeping in mind the basic design principles. 
+#### How this component supports the task:
+
+### Prototype 3 (P7)
+#### Task
+Find paintings by an artist you’re interested in. (ex: Vincent Van Gogh) 
+#### Components 
+Responsive UI -- We decided to implement the Responsive UI component, which means our web application had dynamic elements that flex to comfortably fit mobile, tablet, and desktop-sized screens. 
+#### How this component supports the task:
+
+
+## Reflection
+
+## Links
 
