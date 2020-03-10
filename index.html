@@ -267,7 +267,7 @@
                 <button onClick="getArt()" class="btn btn-primary explore" style="margin:5px;"> Explore </button>
 
 
-                <input type="text" class="form-control col-7" placeholder="Search for..." />
+                <input onkeydown="querySearch()" id="search" type="search" class="form-control col-7" placeholder="Search for..." value="" />
 
                 <button onClick="getArt()" class="btn btn-primary btn-lg ml-2"><i class="fas fa-search"></i></button>
             </div>
