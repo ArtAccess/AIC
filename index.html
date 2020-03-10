@@ -61,8 +61,8 @@
                     <input type="range" class="custom-range" id="years">
                 </fieldset>
                 <div>
-                <h4 class="pb-0 mb-0">Movement</h4>
-                <a href="movements.html"><i class="fas fa-question-circle"></i></a>
+                <h4 class="pb-0 mb-0">Movement<a href="movements.html"><i class="fas fa-question-circle"></i></a></h4>
+
                 </div>
 
                 <ul class="pl-0 mt-1">
@@ -267,7 +267,7 @@
                 <button onClick="getArt()" class="btn btn-primary explore" style="margin:5px;"> Explore </button>
 
 
-                <input type="text" class="form-control col-7" placeholder="Search for..." />
+                <input onkeydown="querySearch()" id="search" type="search" class="form-control col-7" placeholder="Search for..." value="" />
 
                 <button onClick="getArt()" class="btn btn-primary btn-lg ml-2"><i class="fas fa-search"></i></button>
             </div>
