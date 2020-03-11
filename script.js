@@ -1,3 +1,6 @@
+$(function(){
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 function querySearch() {
     const baseURL = 'https://aggregator-data.artic.edu/api/v1/artworks/search?q=';
@@ -328,9 +331,3 @@ function getArt() {
 
 
 };
-
-
-
-
-
-
