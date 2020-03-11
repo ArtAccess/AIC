@@ -220,7 +220,9 @@ We want our app to be as simple and straightforward as possible. As some of our 
 Find paintings by an artist you’re interested in. (ex: Vincent Van Gogh) 
 #### Components 
 Responsive UI -- We decided to implement the Responsive UI component, which means our web application had dynamic elements that flex to comfortably fit mobile, tablet, and desktop-sized screens. 
-<img src="readme-img/responsive.png" data-canonical-src="readme-img/responsive.png" width="200" styles="display:block;"/>
+<br>
+<img src="readme-img/responsive.png" data-canonical-src="readme-img/responsive.png" width="200"/>
+<br>
 
 #### How this component supports the task:
 Through the interview we learnt that users were frustrated by the UI of even the websites like Google arts and WikiArt. Also, majority of the users have shifted to mobile for visiting sites and doing tasks and so are different companies/websites shifting to apps or mobile friendly websites. And as we have emphasized now and again, user experience is one of the most important aspects of our app, we decided to implement this component for users to have a frustration-free experience on their mobile devices.
