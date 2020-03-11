@@ -69,12 +69,9 @@ We observed that most of the users showed frustration with the search functional
 ### Personas, Scenarios, & Features (P3)
 #### Personas
 <strong>Noor</strong>
+![persona - noor](readme-img/noor.png "persona - noor")
 <br>
-Age: 27
-<br>
-Occupation: PhD candidate for computational social science
-<br>
-Hometown: San Jose, California
+27, PhD candidate for computational social science
 <br>
 Bio: Noor lives in Skokie while she’s working towards her PhD at Northwestern University. She’s a hard worker who loves cooking challenging dishes, heart-to-heart conversations with friends, and cracking into a fresh book when she has time. 
 <br>
@@ -84,13 +81,10 @@ Pain Points:  She wishes she had more time for museums and cultural events, but 
 
 ---
 
-John
+<strong>John</strong>
+![persona - john](readme-img/john.png "persona - john")
 <br>
-Age: 55
-<br>
-Occupation: Mechanical Engineer
-<br>
-Hometown: Skokie, IL
+55, Mechanical Engineer
 <br>
 Bio: John has been staying in Chicago for the past 35 years now and loves the cold weather. He drives his son to school when needed and likes to go on tours around the world. He’s a father of two who lives in his bungalow.
 <br>
@@ -100,13 +94,10 @@ Pain points: It has become quite difficult for John to plan tours these days giv
 
 ---
 
-Lizzie
+<strong>Lizzie</strong>
+![persona - lizzie](readme-img/lizzie.png "persona - lizzie")
 <br>
-Age: 28
-<br>
-Occupation: Artist: painter
-<br>
-Hometown: Aurora, Illinois
+28, Artist: painter
 <br>
 Bio: Lizzie is an artist/painter and works at a Creative Art Studio based out of Naperville. As a part of her job Lizzie often conducts step-by-step canvas painting art sessions for couples and private parties. 
 <br>
@@ -116,13 +107,10 @@ Pain Points: Finding the time to visit museums and keeping within her monthly bu
 
 ---
 
-Jennifer
+<strong>Jennifer</strong>
+![persona - jennifer](readme-img/jennifer.png "persona - jennifer")
 <br>
-Age: 25
-<br>
-Occupation: Researcher
-<br>
-Hometown: Lafayette, Indiana
+25, Researcher
 <br>
 Bio: Jennifer is a PhD candidate in biology in UChicago. She is interested in contemporary art, and often visits Chicago Art Institute for new exhibitions. 
 <br>
@@ -132,13 +120,10 @@ Pain points: It is hard to reach the art institute by public transportation, I n
 
 ---
 
-Lauren
+<strong>Lauren</strong>
+![persona - lauren](readme-img/lauren.png "persona - lauren")
 <br>
-Age: 34
-<br>
-Occupation: Occupational Therapist
-<br>
-Hometown: Dublin, Ohio
+34, Occupational Therapist
 <br>
 Bio: Lauren is a millennial mom with 2 young children under 6. She works during the weekdays but has evenings and weekends to do fun activities with her kids. While not an art enthusiast or scholar, she enjoys museums and learning about art and history. She lives in the suburbs and is a significant drive from the nearest city.
 Needs: Lauren would like to make it to the museum more often (or really, at all!) with her children.
