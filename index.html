@@ -146,9 +146,17 @@
                     <label class="custom-control-label" for="customSwitch1">Currently on display at AIC</label>
                 </div>
 
-
-                <div class="text-right mt-3">
-                    <button class="btn btn-secondary mr-2 ">Apply</button>
+                <div class="row">
+                    <div class="col-m pr-4 alert alert-success text-left alert-dismissible fade show" id="apply-alert" role="alert">
+                            Filters applied!
+                        <!-- dismiss button of alert -->
+                        <button type="button" class="pr-2 close" onclick="closeFeedback()" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                    </div>
+                    <div class="col-m text-right ml-2 mt-2">
+                        <button class="btn btn-secondary mr-2" id="apply" onclick="giveAppliedFeedback()">Apply</button>
+                    </div>
                 </div>
             </div>
         </div>
