@@ -212,6 +212,7 @@ Alternatively, find a painting of still life objects from a particular time peri
 Interactive Data Filter and Form: For the current round, as suggested to take the most complex component first, we decided to implement the “Filter” function of our project. It is one of the most important components since it is connected to almost every other feature of our prototype.
 ![form component](readme-img/form.png "form component")
 #### How this component supports the task:
+The form allows the user to enter their prefered filter options to help them find a painting from flowers from a particular art movement, or still life objects from a particular time period. The interactive data filter enables the user to then search the AIC collection with those specified search options. For instance, a user might check the “Impressionism” box and set the Country of Origin to “France”, apply the filters by clicking the Apply button in the form, and then enter “flowers” into the search bar. A photo from the AIC data that matches their search criteria will be displayed on the page.
 
 ### Prototype 2 (P6)
 #### Task
@@ -222,19 +223,30 @@ TM Branding: We used the branding protocols of Bootstrap toolkit with changes to
 ![branding colors component](readme-img/colors.png "branding colors component")
 ![branding component](readme-img/fonts.png "branding component")
 #### How this component supports the task:
+We want our app to be as simple and straightforward as possible. As some of our users suggested and we feel the same way too, we decided and took extra care to implement simplicity as one of our website elements. Our website is all about an Art experience which is as nearly good as a museum and has the website being aesthetically pleasing, following all the styling guidelines was of utmost importance to the project. We try to communicate simplicity, inspiration and creativity through our branding components. A user would not use an art website if it is not visually pleasing! 
 
 ### Prototype 3 (P7)
 #### Task
 Find paintings by an artist you’re interested in. (ex: Vincent Van Gogh) 
 #### Components 
 Responsive UI -- We decided to implement the Responsive UI component, which means our web application had dynamic elements that flex to comfortably fit mobile, tablet, and desktop-sized screens. 
-<!-- ![responsive component](readme-img/responsive.png "form responsive" ) -->
 <img src="readme-img/responsive.png" data-canonical-src="readme-img/responsive.png" width="200" />
 
 #### How this component supports the task:
+Through the interview we learnt that users were frustrated by the UI of even the websites like Google arts and WikiArt. Also, majority of the users have shifted to mobile for visiting sites and doing tasks and so are different companies/websites shifting to apps or mobile friendly websites. And as we have emphasized now and again, user experience is one of the most important aspects of our app, we decided to implement this component for users to have a frustration-free experience on their mobile devices.
 
 
 ## Reflection
+### Next steps if we had more time
+<ul>
+    <li>We would work on getting a description about artist and movement from Wikipedia besides the image display.</li>
+    <li>We would try to work on color based search through some API or a Machine Learning model.</li>
+    <li>A social element where users can comment on pictures and share their views on artworks and connect with like-minded people.</li>
+</ul>
 
 ## Links
+[Our Repository](https://github.com/ArtAccess/AIC)
+[Art Access](https://artaccess.github.io/AIC/)
+### Instructions to run our app:
+It is as simple as going to the [Art Access](https://artaccess.github.io/AIC/) link. It is best viewed using Chrome on a desktop.
 
