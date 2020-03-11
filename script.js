@@ -1,4 +1,12 @@
 
+function giveAppliedFeedback() {
+    document.getElementById('apply-alert').style.visibility = "visible";
+}
+
+function closeFeedback() {
+    document.getElementById('apply-alert').style.visibility = "hidden";
+}
+
 function querySearch() {
     const baseURL = 'https://aggregator-data.artic.edu/api/v1/artworks/search?q=';
     let term = document.getElementById('search');
