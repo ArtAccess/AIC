@@ -69,6 +69,7 @@ We observed that most of the users showed frustration with the search functional
 ### Personas, Scenarios, & Features (P3)
 #### Personas
 <strong>Noor</strong>
+<br>
 <img src="readme-img/noor.png" data-canonical-src="readme-img/noor.png" width="200" styles="display: inline;" />
 <br>
 27, PhD candidate for computational social science
