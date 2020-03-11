@@ -229,6 +229,14 @@ Through the interview we learnt that users were frustrated by the UI of even the
 
 
 ## Reflection
+### What we managed to accomplish in the time we had
+<ul>
+    <li>We delved into design and branding to create an aesthetically pleasing web application that follows established design patterns.</li>
+    <li>We created a web app that calls the Art Institute of Chicago’s API and displays images, titles, dates, and a link to the work after just pressing a button.</li>
+    <li>We implemented responsive design to make our application accessible to those on various devices.</li>
+    <li>We created different input fields and created custom inputs (the year slider) to create a form for our data filter.</li>
+</ul>
+
 ### Next steps if we had more time
 <ul>
     <li>We would work on getting a description about artist and movement from Wikipedia besides the image display.</li>
