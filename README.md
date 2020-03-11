@@ -238,7 +238,9 @@ Through the interview we learnt that users were frustrated by the UI of even the
 
 ## Links
 [Our Repository](https://github.com/ArtAccess/AIC)
+<br>
 [Art Access](https://artaccess.github.io/AIC/)
+
 ### Instructions to run our app:
 It is as simple as going to the [Art Access](https://artaccess.github.io/AIC/) link. It is best viewed using Chrome on a desktop.
 
