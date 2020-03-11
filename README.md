@@ -70,7 +70,7 @@ We observed that most of the users showed frustration with the search functional
 #### Personas
 <strong>Noor</strong>
 <br>
-<img src="readme-img/noor.png" data-canonical-src="readme-img/noor.png" width="200" styles="display: inline;" />
+<img src="readme-img/noor.png" data-canonical-src="readme-img/noor.png" width="200"/>
 <br>
 27, PhD candidate for computational social science
 <br>
@@ -83,7 +83,8 @@ Pain Points:  She wishes she had more time for museums and cultural events, but 
 ---
 
 <strong>John</strong>
-![persona - john](readme-img/john.png "persona - john")
+<br>
+<img src="readme-img/john.png" data-canonical-src="readme-img/john.png" width="200"/>
 <br>
 55, Mechanical Engineer
 <br>
@@ -96,7 +97,8 @@ Pain points: It has become quite difficult for John to plan tours these days giv
 ---
 
 <strong>Lizzie</strong>
-![persona - lizzie](readme-img/lizzie.png "persona - lizzie")
+<br>
+<img src="readme-img/lizzie.png" data-canonical-src="readme-img/lizzie.png" width="200"/>
 <br>
 28, Artist: painter
 <br>
@@ -109,7 +111,8 @@ Pain Points: Finding the time to visit museums and keeping within her monthly bu
 ---
 
 <strong>Jennifer</strong>
-![persona - jennifer](readme-img/jennifer.png "persona - jennifer")
+<br>
+<img src="readme-img/jennifer.png" data-canonical-src="readme-img/jennifer.png" width="200"/>
 <br>
 25, Researcher
 <br>
@@ -122,7 +125,8 @@ Pain points: It is hard to reach the art institute by public transportation, I n
 ---
 
 <strong>Lauren</strong>
-![persona - lauren](readme-img/lauren.png "persona - lauren")
+<br>
+<img src="readme-img/lauren.png" data-canonical-src="readme-img/lauren.png" width="200"/>
 <br>
 34, Occupational Therapist
 <br>
