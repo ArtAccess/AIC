@@ -1,10 +1,6 @@
 
 function giveAppliedFeedback() {
-    console.log("clicked that button!");
-    // document.getElementById('apply').alert();
-    // $('#apply').alert()
     document.getElementById('apply-alert').style.visibility = "visible";
-
 }
 
 function closeFeedback() {
