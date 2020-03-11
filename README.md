@@ -213,7 +213,7 @@ TM Branding: We used the branding protocols of Bootstrap toolkit with changes to
 ![branding colors component](readme-img/colors.png "branding colors component")
 ![branding component](readme-img/fonts.png "branding component")
 #### How this component supports the task:
-We want our app to be as simple and straightforward as possible. As some of our users suggested and we feel the same way too, we decided and took extra care to implement simplicity as one of our website elements. Our website is all about an Art experience which is as nearly good as a museum and has the website being aesthetically pleasing, following all the styling guidelines was of utmost importance to the project. We try to communicate simplicity, inspiration and creativity through our branding components. A user would not use an art website if it is not visually pleasing! 
+We want our app to be as simple and straightforward as possible, and our design communicates this. Our use of whitespace helps the user understand what to do when reaching our page. The energetic colors, the rounded fonts, and the rounded elements add a welcoming and easy going feel to our app, which allows users to explore art in a casual and low stress way. Our design expresses simplicity, inspiration, and creativity through our branding components. A user would not use an art website if it is not visually pleasing! 
 
 ### Prototype 3 (P7)
 #### Task
