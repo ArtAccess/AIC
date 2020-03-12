@@ -22,7 +22,7 @@ li {
     visibility: hidden;
 }
 
-.year-mobile {
+#year1 #year2 {
     height: calc(1.5em + 0.75rem + 2px);
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
@@ -37,7 +37,7 @@ li {
     vertical-align: middle;
 }
 
-.year-mobile:focus {
+#year1 #year2:focus {
     color: #5a5a5a;
     background-color: #fff;
     border-color: #d0eae2;
