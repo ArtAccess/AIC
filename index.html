@@ -57,9 +57,40 @@
                 <h2><i class="fas fa-filter"></i> Filters</h2>
                 <h4 class="mt-3">Year</h4>
                 <!-- made this into a slider but need to add values -->
-                <fieldset class="form-group">
-                    <input type="range" class="custom-range" id="years">
-                </fieldset>
+                <!--Slider with years included-->
+                <div id="slider">
+                    
+                </div>
+                <div id='results'></div>
+                <script src="nouislider.min.js"></script>
+                <script>
+                    var slider = document.getElementById('slider');
+                
+                            noUiSlider.create(slider, {
+                                start: [1899, 1920],
+                                connect: true,
+                                range: {
+                                    'min': 1850,
+                                    'max': 1950
+                                }
+                            });
+                            document.getElementById('slider').addEventListener('click', function () {
+                            var result = slider.noUiSlider.get();
+                            var z = Math.floor(result[0]);
+                            var y = Math.floor(result[1]);
+                            var res = [z,y];
+                            document.getElementById("results").innerHTML = injectHTML(res);
+                            });
+                            function injectHTML(result) {
+                                const rHTML= `<br><h6> ${result[0]} - ${result[1]}</h6>`;
+                                return rHTML;
+                            }
+                            
+                    </script>              
+                
+                <div>
+
+                <br>
                 <div>
                 <h4 class="pb-0 mb-0">Movement<a href="movements.html"><i class="fas fa-question-circle"></i></a></h4>
 
