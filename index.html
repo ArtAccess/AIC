@@ -19,6 +19,8 @@
     <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
     <!-- our font awesome icons -->
     <script src="fontawesome-free-5.12.1-web/js/all.js"></script>
+    <!--Double thumb-->
+    <link href="nouislider.min.css" rel="stylesheet"/>
 
 </head>
 
@@ -56,11 +58,43 @@
             <div class="border border-light rounded form p-3">
                 <h2><i class="fas fa-filter"></i> Filters</h2>
                 <h4 class="mt-3">Year</h4>
-                <!-- made this into a slider but need to add values -->
-                <fieldset class="form-group">
-                    <input type="range" class="custom-range" id="years">
-                </fieldset>
+
+                
+                <!--Slider with years included-->
+                <div id="slider">
+                    
+                </div>
+                <div id='results'></div>
+                <script src="nouislider.min.js"></script>
+                <script>
+                    var slider = document.getElementById('slider');
+                
+                            noUiSlider.create(slider, {
+                                start: [1899, 1920],
+                                connect: true,
+                                range: {
+                                    'min': 1850,
+                                    'max': 1950
+                                }
+                            });
+                            document.getElementById('slider').addEventListener('click', function () {
+                            var result = slider.noUiSlider.get();
+                            var z = Math.floor(result[0]);
+                            var y = Math.floor(result[1]);
+                            var res = [z,y];
+                            document.getElementById("results").innerHTML = injectHTML(res);
+                            });
+                            function injectHTML(result) {
+                                const rHTML= `<br><h6> ${result[0]} - ${result[1]}</h6>`;
+                                return rHTML;
+                            }
+                            
+                    </script>              
+                
+
                 <div>
+                <br>
+
                 <h4 class="pb-0 mb-0">Movement<a href="movements.html"><i class="fas fa-question-circle"></i></a></h4>
 
                 </div>
@@ -178,11 +212,42 @@
                     <button class="btn btn-info btn-lg mr-2 d-lg-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
                             class="fas fa-filter"></i></button>
                     <div class="dropdown-menu px-4 filter-menu" aria-labelledby="dropdownMenuButton">
-                        <h2>Year</h2>
-                        <fieldset class="form-group">
-                            <input type="range" class="custom-range" id="years">
-                        </fieldset>
-                        <h2>Movement</h2>
+                        <h4>Year</h4>
+                        <!--Slider with years included-->
+
+                         <div id="slider1">
+
+                </div>
+                <div id='results1'></div>
+                <script src="nouislider.min.js"></script>
+                <script>
+                    var slider = document.getElementById('slider1');
+
+                            noUiSlider.create(slider1, {
+                                start: [1899, 1920],
+                                connect: true,
+                                range: {
+                                    'min': 1850,
+                                    'max': 1950
+                                }
+                            });
+                            document.getElementById('slider1').addEventListener('click', function () {
+                            var result1 = slider1.noUiSlider.get();
+                            var z = Math.floor(result1[0]);
+                            var y = Math.floor(result1[1]);
+                            var res = [z,y];
+                            document.getElementById("results1").innerHTML = injectHTML(res);
+                            });
+                            function injectHTML(result1) {
+                                const rHTML= `<br><h6> ${result1[0]} - ${result1[1]}</h6>`;
+                                return rHTML;
+                            }
+
+                    </script>
+
+
+
+                        <h4>Movement</h4>
                         <div class="row">
                             <ul>
                                 <li>
@@ -191,9 +256,7 @@
                                 <li>
                                     <input class="mr-1" type="checkbox" /> Art Noveau
                                 </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Avant-garde
-                                </li>
+
                                 <li>
                                     <input class="mr-1" type="checkbox" /> Baroque
                                 </li>
@@ -203,8 +266,7 @@
                                 <li>
                                     <input class="mr-1" type="checkbox" /> Dada / Dadaism
                                 </li>
-                            </ul>
-                            <ul>
+
                                 <li>
                                     <input class="mr-1" type="checkbox" /> Expressionism
                                 </li>
@@ -214,9 +276,7 @@
                                 <li>
                                     <input class="mr-1" type="checkbox" /> Pop Art
                                 </li>
-                                <li>
-                                    <input class="mr-1" type="checkbox" /> Post-Impressionism
-                                </li>
+
                                 <li>
                                     <input class="mr-1" type="checkbox" /> Rococo
                                 </li>
@@ -279,17 +339,23 @@
                 <input onkeydown="querySearch()" id="search" type="search" class="form-control col-6" placeholder="Search for..." value="" />
 
                 <button onClick="getArt()" class="btn btn-primary btn-lg ml-2" type="button" data-toggle="tooltip" data-placement="bottom" title="Search"><i class="fas fa-search"></i></button>
+                
 
+
+<!--                <input onkeydown="querySearch()" id="search" type="search" class="form-control col-7" placeholder="Search for..." value="" />-->
 
 
             </div>
 
-            <!-- <div class="mx-auto col-md-8 col-10 mt-3 mb-5"> -->
-            <div class="col-md-8 col-10 mt-3 mb-5">
+             <div class="text-center">
+                    <div id="spinme">
+                    </div>
+              </div>
 
-                <!-- <div class="mx-auto"> -->
+
+            <div class="col-md-10 col-12 mt-3 mb-7">
+               
                     <img id="imageLink" class="w-100 mx-auto" style="max-height: 400px; width: auto;"></img>
-                <!-- </div> -->
 
                 <a id="tombstone">
                     <a id="artwork-url" target="blank">
