@@ -10,6 +10,17 @@ li {
     background-color: #f8f9fa;
 }
 
+.about {
+    text-align: center;
+}
+
+.about-body {
+    text-align: justify;
+}
+
+#apply-alert {
+    visibility: hidden;
+}
 
 
 /* tablet */
@@ -23,8 +34,5 @@ li {
 @media (max-width: 769px) {
     .filter-menu {
         width: 345px;
-    }
-    .explore{
-      display: none;
     }
 }
