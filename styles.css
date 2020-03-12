@@ -46,6 +46,10 @@ li {
     box-shadow: 0 0 0 0.2rem rgba(120, 194, 173, 0.25);
 }
 
+.art-container {
+    min-height: 1000px;
+}
+
 
 /* tablet */
 
