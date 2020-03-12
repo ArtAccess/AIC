@@ -22,15 +22,42 @@ li {
     visibility: hidden;
 }
 
+.year-mobile {
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5a5a5a;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.4rem;
+    width: auto;
+    vertical-align: middle;
+}
+
+.year-mobile:focus {
+    color: #5a5a5a;
+    background-color: #fff;
+    border-color: #d0eae2;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(120, 194, 173, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(120, 194, 173, 0.25);
+}
+
 
 /* tablet */
+
 @media (max-width: 992px) {
     .filter-menu {
         width: 460px;
     }
 }
 
+
 /* phone, fits iPhone as old as 6 */
+
 @media (max-width: 769px) {
     .filter-menu {
         width: 345px;
