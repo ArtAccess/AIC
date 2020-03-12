@@ -204,24 +204,26 @@
 
         <!-- search bar and button + mobile filter -->
 
-        <div class="col-12 col-md-8 col-lg-6 mx-auto mt-3">
+        <div class="col-12 col-md-8 col-lg-6 mx-auto mt-7">
 
-            <div class="form-inline mx-auto">
+            <div class="form-inline">
 
                 <div class="dropdown">
                     <button class="btn btn-info btn-lg mr-2 d-lg-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                            class="fas fa-filter"></i></button>
+                            class="fas fa-filter"></i> </button>
                     <div class="dropdown-menu px-4 filter-menu" aria-labelledby="dropdownMenuButton">
-                        <h4>Year</h4>
+
+                        <h5>Year</h5>
                         <!--Slider with years included-->
 
-                         <fieldset class="form-group">
-                            <input type="range" class="custom-range" id="years">
-                        </fieldset>
+                         <fieldset class="form-group dropdown-menu scrollable-menu">
+                            <!-- <input type="range" class="custom-range" id="years"> -->
+  </fieldset>
 
 
-
-                        <h4>Movement</h4>
+  <input onkeydown="querySearch()" id="year1" type="search" class="form-control-sm col-4" placeholder="From" value="" />
+  <input onkeydown="querySearch()" id="year2" type="search" class="form-control-sm col-4" placeholder="To" value="" />
+                        <h5>Movement</h5>
                         <div class="row">
                             <ul>
                                 <li>
@@ -260,19 +262,9 @@
                             </ul>
                         </div>
 
-                        <h2>Country of Origin</h2>
+                        <h5>Country of Origin <input class="col-6 form-control-sm" type="text" placeholder="Country name"/></h5>
 
-                        <input class="col-6 form-control" type="text" />
-                        <!-- the filter menu does not like choosing from a dropdown menu -->
-                        <!-- <select class="form-control" id="exampleFormControlSelect1">
-                              <option>1</option>
-                              <option>2</option>
-                              <option>3</option>
-                              <option>4</option>
-                              <option>5</option>
-                            </select> -->
-
-                        <h2>Medium</h2>
+                        <h5>Medium</h5>
 
                         <ul class="pl-0 mt-1">
                             <li>
@@ -295,14 +287,9 @@
                             </li>
                         </ul>
 
-                        <!-- <h4>Visibility at AIC</h4>
-                        <div class="custom-control custom-switch mb-3">
-                            <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="">
-                            <label class="custom-control-label" for="customSwitch1">Currently on display at AIC</label>
-                        </div> -->
 
                         <div class="text-right">
-                            <button class="btn btn-secondary mr-2" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apply</button>
+                            <button class="btn btn-secondary mr-2 btn-sm" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apply</button>
                         </div>
 
 
