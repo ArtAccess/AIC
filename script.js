@@ -1,7 +1,3 @@
-$(function() {
-    $('[data-toggle="tooltip"]').tooltip()
-})
-
 function giveAppliedFeedback() {
     document.getElementById('apply-alert').style.visibility = "visible";
 }
