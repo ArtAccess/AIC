@@ -1,5 +1,5 @@
 # Art Institute of Chicago: A Digital Experience
-## Problem and Related Work (P1)
+## Problem and Related Work
 ### Problem and Motivation
 Consuming and creating art is a universal human experience, but unfortunately it’s often more accessible to some than others. The cost of tickets, transportation, parking, and time consumption make the experience not accessible to everyone. For people who have a genuine interest in studying art and culture, having every piece of information on hand would be ideal. In this project, we propose ArtAccess, a web-based platform that utilizes the Art Institute of Chicago’s new public API to display artworks based on a number of configurable parameters.
 ### Analysis
@@ -7,9 +7,9 @@ Currently, there are a few websites that provide works from artists from differe
 <br><br>
 Our app will be one of the only apps giving users options about what they want to see. By incorporating an intuitive “explore” functionality, coupling with its filterable search capabilities,  it may expose more people to the art than in the past. We do not intend to replace actually going to the museum but are merely providing a supplement. The granularity of API allows the user to potentially search by artist, keywords, place of origin, the text description found beside the artwork in the museum, the medium of the piece, the dominant color of the work, and much more. 
 
-## User Research (P2 and P3)
+## User Research
 
-### Interviews and Observations (P2) 
+### Interviews and Observations
 #### Research Approach
 We hoped to learn: 
 <ul>
@@ -60,7 +60,7 @@ None of the users claimed they witnessed any societal or structural barriers in 
 #### Re-shaping the project idea
 We observed that most of the users showed frustration with the search functionality and features. The new goal of our project was to deliver an accessible art browsing experience, where users can easily and organically search for artwork and receive more information on the pieces that furthers their appreciation of the art.
 
-### Personas, Scenarios, & Features (P3)
+### Personas, Scenarios, & Features
 #### Personas
 <strong>Noor</strong>
 <br>
@@ -166,7 +166,7 @@ Nice-to-have Features:
     <li>John mentioned having a need to explore different cultures around the world and not just Chicago, so a feature that allows us to integrate information from other cultural institutions would be ideal.</li>
 </ul>
 
-## Paper Prototyping (P4)
+## Paper Prototyping
 
 [![paper prototype](readme-img/paper-prototype.png "paper prototype")](https://www.youtube.com/embed/oUROgnWrGdw)
 
@@ -186,9 +186,9 @@ Like having filters permanently visible as a sidebar, include better instruction
     <li>Labeling the “Related Images” on the side of the image may be helpful for users who aren’t sure what the purpose of those images are </li>
 </ol>
 
-## High-Fidelity Prototyping (P5, P6, & P7)
+## High-Fidelity Prototyping
 
-### Prototype 1 (P5)
+### Prototype 1
 #### Task
 Find a painting of flowers in a style of art that interests you. (ex: Impressionism) 
 Alternatively, find a painting of still life objects from a particular time period. 
@@ -198,7 +198,7 @@ Interactive Data Filter and Form: For the current round, as suggested to take th
 #### How this component supports the task:
 The form allows the user to enter their prefered filter options to help them find a painting from flowers from a particular art movement, or still life objects from a particular time period. The interactive data filter enables the user to then search the AIC collection with those specified search options. For instance, a user might check the “Impressionism” box and set the Country of Origin to “France”, apply the filters by clicking the Apply button in the form, and then enter “flowers” into the search bar. A photo from the AIC data that matches their search criteria will be displayed on the page.
 
-### Prototype 2 (P6)
+### Prototype 2
 #### Task
 Find a painting of flowers in a style of art that interests you. (ex: Impressionism) 
 
@@ -209,7 +209,7 @@ TM Branding: We used the branding protocols of Bootstrap toolkit with changes to
 #### How this component supports the task:
 We want our app to be as simple and straightforward as possible, and our design communicates this. Our use of whitespace helps the user understand what to do when reaching our page. The energetic colors, the rounded fonts, and the rounded elements add a welcoming and easy going feel to our app, which allows users to explore art in a casual and low stress way. Our design expresses simplicity, inspiration, and creativity through our branding components. A user would not use an art website if it is not visually pleasing! 
 
-### Prototype 3 (P7)
+### Prototype 3
 #### Task
 Find paintings by an artist you’re interested in. (ex: Vincent Van Gogh) 
 #### Components 
