@@ -95,7 +95,8 @@
                 <div>
                     <br>
 
-                    <h4 class="pb-0 mb-0">Movement<a href="movements.html"><i class="fas fa-question-circle"></i></a></h4>
+                    <h4 class="pb-0 mb-0">Movement<a href="movements.html"><i class="fas fa-question-circle"></i></a>
+                    </h4>
 
                 </div>
 
@@ -189,7 +190,7 @@
                         <!-- dismiss button of alert -->
                         <button type="button" class="pr-2 close" onclick="closeFeedback()" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
-                          </button>
+                        </button>
                     </div>
                     <div class="col-m text-right ml-2 mt-2">
                         <button class="btn btn-secondary mr-2" id="apply" onclick="giveAppliedFeedback()">Apply</button>
@@ -209,8 +210,8 @@
             <div class="form-inline">
 
                 <div class="dropdown">
-                    <button class="btn btn-info btn-lg mr-2 d-lg-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
-                            class="fas fa-filter"></i> </button>
+                    <button class="btn btn-info btn-lg mr-2 d-lg-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-filter"></i>
+                    </button>
                     <div class="dropdown-menu px-4 filter-menu" aria-labelledby="dropdownMenuButton">
 
                         <h5>Year</h5>
@@ -220,10 +221,11 @@
                             <!-- <input type="range" class="custom-range" id="years"> -->
                         </fieldset>
 
-
-                        <input onkeydown="querySearch()" id="year1" type="search" class="form-control-sm col-4" placeholder="From" value="" />
-                        <input onkeydown="querySearch()" id="year2" type="search" class="form-control-sm col-4" placeholder="To" value="" />
-                        <h5>Movement</h5>
+                        <div class="form-inline">
+                            <input onkeydown="querySearch()" id="year1" type="search" class="form-control col-4 mr-2" placeholder="From" value="" />
+                            <input onkeydown="querySearch()" id="year2" type="search" class="form-control col-4" placeholder="To" value="" />
+                        </div>
+                        <h5 class="mt-2">Movement</h5>
                         <div class="row">
                             <ul>
                                 <li>
@@ -262,9 +264,9 @@
                             </ul>
                         </div>
 
-                        <h5>Country of Origin <input class="col-6 form-control-sm" type="text" placeholder="Country name" /></h5>
+                        <h5>Country of Origin <input class="col-6 form-control mt-2" type="text" placeholder="Country name" /></h5>
 
-                        <h5>Medium</h5>
+                        <h5 class="mt-3">Medium</h5>
 
                         <ul class="pl-0 mt-1">
                             <li>
@@ -299,12 +301,8 @@
 
                 <input onkeydown="querySearch()" id="search" type="search" class="form-control col-6" placeholder="Search for..." value="" />
 
-                <button onClick="getArt()" class="btn btn-primary btn-lg ml-2" type="button" title="Search"><i class="fas fa-search"></i></button>
-
-
-
-                <!--                <input onkeydown="querySearch()" id="search" type="search" class="form-control col-7" placeholder="Search for..." value="" />-->
-
+                <button onClick="getArt()" class="btn btn-primary btn-lg ml-2" type="button" title="Search"><i
+                        class="fas fa-search"></i></button>
 
             </div>
 
