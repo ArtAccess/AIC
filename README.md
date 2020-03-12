@@ -1,21 +1,15 @@
 # Art Institute of Chicago: A Digital Experience
 ## Problem and Related Work (P1)
 ### Problem and Motivation
-Consuming and creating art is a universal human experience, but unfortunately it’s often more accessible to some than others. The cost of tickets, transportation, parking, time consumption make the experience not accessible to everyone. For people who have a genuine interest in studying about art-and-culture, having every piece of information on hand would be great. In this project, we propose ArtAccess, a web-based platform that utilizes the Art Institute of Chicago’s new public API to collect artworks based on a number of configurable parameters.
+Consuming and creating art is a universal human experience, but unfortunately it’s often more accessible to some than others. The cost of tickets, transportation, parking, and time consumption make the experience not accessible to everyone. For people who have a genuine interest in studying art and culture, having every piece of information on hand would be ideal. In this project, we propose ArtAccess, a web-based platform that utilizes the Art Institute of Chicago’s new public API to display artworks based on a number of configurable parameters.
 ### Analysis
-Currently, there are a few websites that provide works from artists from different museums, such as ​https://artsandculture.google.com/​, ​https://folkartmuseum.org/​, ArtBrowser​, etc. However they don’t provide users with a combination of filters to find something particular that they want, and some are geared towards selling modern artists works. Using AIC’s API, there is a project which implements a Chrome extension that displays a random piece of artwork every time a user opens a new tab but that also does not solve the problem. 
+Currently, there are a few websites that provide works from artists from different museums, such as ​https://artsandculture.google.com/​, ​https://folkartmuseum.org/​, ArtBrowser​, etc. However, they don’t provide users with an intuitive array of filters to find something particular that they want, and some are more geared towards selling modern artists’ works. There is a Chrome extension that uses the AIC’s API to display a random piece of artwork every time the user opens a new tab, but that also does not solve the problem. 
 <br><br>
-Our app will be one of the only apps giving users options about what they want to see. It may expose more people to the art than in the past. We do not intend to replace actually going to the museum but are merely providing a supplement. The granularity of API allows the user to potentially by artist, keywords, place of origin, the text description found beside the artwork in the museum, the medium of the piece, the dominant color of the work, and much more. 
-
-### Design Hypothesis
-To create a web application using AIC’s API that gives the user options to choose the artwork they want to explore, wherever they are using filters to refine their search. Adding this will enable one to study the specific set of artworks without having to browse through everything and it gives an overall sense to compare between different sets. Further, we aim for using color theory to find similar art and adding recommendations based on artwork they’ve searched for. 
+Our app will be one of the only apps giving users options about what they want to see. By incorporating an intuitive “explore” functionality, coupling with its filterable search capabilities,  it may expose more people to the art than in the past. We do not intend to replace actually going to the museum but are merely providing a supplement. The granularity of API allows the user to potentially search by artist, keywords, place of origin, the text description found beside the artwork in the museum, the medium of the piece, the dominant color of the work, and much more. 
 
 ## User Research (P2 and P3)
 
-### Interviews and Observations (P2)
-#### Target user population
-Anyone who has access to Internet and phone/tablet/computer. People who are constrained by reasons like tight schedule, students, people having 9-5 jobs, people not living nearby cities/areas of art centres, people who might not be as tech-savvy, people of different ages, and people with physical disabilities who have difficulty accessing these museums. Also, Art Enthusiasts, Art Majors, Local Artists who cannot always afford in terms of time or money to go visit a museum but experiencing art is of utmost interest and importance to them. 
- 
+### Interviews and Observations (P2) 
 #### Research Approach
 We hoped to learn: 
 <ul>
@@ -60,7 +54,7 @@ Users expressed an interest in:
     <li>Idea of a community for art enthusiasts that allowed them to comment and share artwork. </li>
 </ul>
 
-None of the users witnessed any societal or structural barriers in the form of classism or racism. The main obstacles in the way of getting to the museum regularly were a lack of time, financial barriers, and physical accessibility.
+None of the users claimed they witnessed any societal or structural barriers in the form of classism or racism. The main obstacles in the way of getting to the museum regularly were a lack of time, financial barriers, and physical accessibility.
 
 
 #### Re-shaping the project idea
@@ -219,13 +213,15 @@ We want our app to be as simple and straightforward as possible, and our design 
 #### Task
 Find paintings by an artist you’re interested in. (ex: Vincent Van Gogh) 
 #### Components 
-Responsive UI -- We decided to implement the Responsive UI component, which means our web application had dynamic elements that flex to comfortably fit mobile, tablet, and desktop-sized screens. 
+Responsive UI 
+<br>
+We decided to implement the Responsive UI component, which means our web application had dynamic elements that flex to comfortably fit mobile, tablet, and desktop-sized screens. 
 <br>
 <img src="readme-img/responsive.png" data-canonical-src="readme-img/responsive.png" width="200"/>
 <br>
 
 #### How this component supports the task:
-Through the interview we learnt that users were frustrated by the UI of even the websites like Google arts and WikiArt. Also, majority of the users have shifted to mobile for visiting sites and doing tasks and so are different companies/websites shifting to apps or mobile friendly websites. And as we have emphasized now and again, user experience is one of the most important aspects of our app, we decided to implement this component for users to have a frustration-free experience on their mobile devices.
+Our mobile design makes our app accessible on various devices and is in line with our overall goal of accessibility. We want our users to be able to find art they’re interested in no matter what device they’re accessing our site from. We learned through our user research and testing that many users were frustrated by the UI of current art searching tools like Google Arts and WikiArt. We implemented this component so users could have a frustration free user experience while using our app.
 
 
 ## Reflection
