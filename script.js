@@ -226,7 +226,7 @@ function getArt() {
     let term = document.getElementById('search').value;
     console.log(term);
 
-    let search1 = "flowers";
+    let search1 = "flower";
     let search2 = "van gogh";
 
     let found_flowers = term.toLowerCase().includes(search1);
