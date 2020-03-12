@@ -179,9 +179,40 @@
                             class="fas fa-filter"></i></button>
                     <div class="dropdown-menu px-4 filter-menu" aria-labelledby="dropdownMenuButton">
                         <h2>Year</h2>
-                        <fieldset class="form-group">
-                            <input type="range" class="custom-range" id="years">
-                        </fieldset>
+                        <!--Slider with years included-->
+                <div id="slider">
+                    
+                </div>
+                <div id='results'></div>
+                <script src="nouislider.min.js"></script>
+                <script>
+                    var slider = document.getElementById('slider');
+                
+                            noUiSlider.create(slider, {
+                                start: [1899, 1920],
+                                connect: true,
+                                range: {
+                                    'min': 1850,
+                                    'max': 1950
+                                }
+                            });
+                            document.getElementById('slider').addEventListener('click', function () {
+                            var result = slider.noUiSlider.get();
+                            var z = Math.floor(result[0]);
+                            var y = Math.floor(result[1]);
+                            var res = [z,y];
+                            document.getElementById("results").innerHTML = injectHTML(res);
+                            });
+                            function injectHTML(result) {
+                                const rHTML= `<br><h6> ${result[0]} - ${result[1]}</h6>`;
+                                return rHTML;
+                            }
+                            
+                    </script>              
+                
+                <div>
+<<<<<<< project-8-akbar
+                <br>
                         <h2>Movement</h2>
                         <div class="row">
                             <ul>
