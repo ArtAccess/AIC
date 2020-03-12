@@ -194,7 +194,7 @@ Find a painting of flowers in a style of art that interests you. (ex: Impression
 Alternatively, find a painting of still life objects from a particular time period. 
 #### Components 
 Interactive Data Filter and Form: For the current round, as suggested to take the most complex component first, we decided to implement the “Filter” function of our project. It is one of the most important components since it is connected to almost every other feature of our prototype.
-![form component](readme-img/form.png "form component")
+![form component](readme-img/filter-form.png "form component")
 #### How this component supports the task:
 The form allows the user to enter their prefered filter options to help them find a painting from flowers from a particular art movement, or still life objects from a particular time period. The interactive data filter enables the user to then search the AIC collection with those specified search options. For instance, a user might check the “Impressionism” box and set the Country of Origin to “France”, apply the filters by clicking the Apply button in the form, and then enter “flowers” into the search bar. A photo from the AIC data that matches their search criteria will be displayed on the page.
 
