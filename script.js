@@ -224,26 +224,27 @@ function getArt() {
 
 
     let term = document.getElementById('search').value;
-    // console.log(term);
+    console.log(term);
 
     let search1 = "flowers";
     let search2 = "van gogh";
+
+    let found_flowers = term.toLowerCase().includes(search1);
+    let found_van = term.toLowerCase().includes(search2);
 
     if (term) {
         spinner = document.getElementById('spinme');
         spinner.innerHTML = `<span class="spinner-border text-primary" role="status" aria-hidden="true"></span>`;
         setTimeout(spinNoMore, 300);
 
-        let found_flowers = term.toLowerCase().includes(search1);
-        let found_van = term.toLowerCase().includes(search2);
+
 
         if (found_flowers) {
             artistElement.innerHTML = "Kurt Seligmann";
             titleElement.innerHTML = "Exotic garden, c. 1954";
             imageLink.setAttribute('src', "https://www.artic.edu/iiif/2/fef8bb75-6989-ad03-51b8-c8c7279bbc2a/full/800,/0/default.jpg")
             document.getElementById("artwork-url").setAttribute('href', "https://www.artic.edu/artworks/62315/exotic-garden");
-        }
-        if (found_van) {
+        } else if (found_van) {
             artistElement.innerHTML = "Vincent van Gogh";
             titleElement.innerHTML = "Self-Portrait, 1887";
             imageLink.setAttribute('src', "https://www.artic.edu/iiif/2/d650ba2f-db7d-8450-ca2a-b7f0806ef9b9/full/1000,/0/default.jpg")
