@@ -2,6 +2,14 @@ $(function(){
   $('[data-toggle="tooltip"]').tooltip()
 })
 
+function giveAppliedFeedback() {
+    document.getElementById('apply-alert').style.visibility = "visible";
+}
+
+function closeFeedback() {
+    document.getElementById('apply-alert').style.visibility = "hidden";
+}
+
 function querySearch() {
     const baseURL = 'https://aggregator-data.artic.edu/api/v1/artworks/search?q=';
     let term = document.getElementById('search');
@@ -188,7 +196,16 @@ function querySearch() {
 
 };
 
+function spinNoMore() {
+  let spinner;
+  spinner = document.getElementById('spinme');
+  spinner.innerHTML = "";
+}
+
 function getArt() {
+    $(this).html(
+        `<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Loading...`
+      );
    // LocalStorage keys for reference
     const savedResponseKey = 'response';
 
@@ -198,6 +215,7 @@ function getArt() {
     let tombstoneElement;
     let titleElement;
     let artistElement;
+    let spinner;
 
 
     tombstoneElement = document.getElementById('tombstone');
@@ -205,6 +223,10 @@ function getArt() {
     artistElement = document.getElementById('artist');
     artworkContainer = document.getElementById('artwork-container');
     imageLink = document.getElementById('imageLink');
+
+    spinner = document.getElementById('spinme');
+    spinner.innerHTML = `<span class="spinner-border text-primary" role="status" aria-hidden="true"></span>` ;
+    setTimeout(spinNoMore, 300);
 
     console.log(tombstoneElement);
     console.log(artworkContainer);

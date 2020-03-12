@@ -18,6 +18,10 @@ li {
     text-align: justify;
 }
 
+#apply-alert {
+    visibility: hidden;
+}
+
 
 /* tablet */
 @media (max-width: 992px) {
