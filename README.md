@@ -191,7 +191,7 @@ Like having filters permanently visible as a sidebar, include better instruction
 ### Prototype 1
 #### Task
 Find a painting of flowers in a style of art that interests you. (ex: Impressionism) 
-Alternatively, find a painting of still life objects from a particular time period. 
+
 #### Components 
 Interactive Data Filter and Form: For this round, as suggested to take the most complex component first, we decided to implement the “Filter” function of our project. It is one of the most important components since it is connected to almost every other feature of our prototype.
 ![form component](readme-img/filter-form.png "form component")
