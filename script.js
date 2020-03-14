@@ -240,10 +240,10 @@ function getArt() {
 
 
         if (found_flowers) {
-            artistElement.innerHTML = "Kurt Seligmann";
-            titleElement.innerHTML = "Exotic garden, c. 1954";
-            imageLink.setAttribute('src', "https://www.artic.edu/iiif/2/fef8bb75-6989-ad03-51b8-c8c7279bbc2a/full/800,/0/default.jpg")
-            document.getElementById("artwork-url").setAttribute('href', "https://www.artic.edu/artworks/62315/exotic-garden");
+            artistElement.innerHTML = "Pierre-Auguste Renoir";
+            titleElement.innerHTML = "Chrysanthemums, 1881–1882";
+            imageLink.setAttribute('src', "https://www.artic.edu/iiif/2/b66f1890-8619-b508-1fe1-205109c21e2f/full/1686,/0/default.jpg")
+            document.getElementById("artwork-url").setAttribute('href', "https://www.artic.edu/artworks/16617/chrysanthemums");
         } else if (found_van) {
             artistElement.innerHTML = "Vincent van Gogh";
             titleElement.innerHTML = "Self-Portrait, 1887";
